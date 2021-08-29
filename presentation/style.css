@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: bisque;
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.counter {
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0px;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    font-size: 30px;   
+}
+
+button{
+    background-color: rgb(57, 105, 207);
+    color: white;
+    padding: 10px;
+    margin: 5px 5px;
+    font-size: 30px;
+}
+
+.minus
+{
+    margin: 0px 10px;
+    padding:  10px 20px; ;
+}
+
+.plus
+{
+    margin: 0px 10px;
+    padding:  9px 15px; ;
+}
